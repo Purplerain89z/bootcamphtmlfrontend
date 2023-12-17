@@ -1,17 +1,37 @@
 body{
-    background: gray;
+    background: rgb(235, 231, 231);
 }
-
+.photo{
+    border: 5px dotted black;
+    border-radius: 50%;
+}
 #title, .subtitle, .post_title{
-    color: blue;
+    color: rgb(66, 66, 70);
 }
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 .post{
     background: white;
-    padding: 10px 5px;
-    border: 3px solid black;
-    margin: 10px;
+    padding: 15px;
+    border: 3px solid rgb(206, 67, 67);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+/*para tipos de borna temos 
+border: solid   para uma porda solida
+border: dotted   borda de pontinho
+border: dashed    borda tracinho
+
+
+*/
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post_image{
+    margin-bottom: 15px;
 }
