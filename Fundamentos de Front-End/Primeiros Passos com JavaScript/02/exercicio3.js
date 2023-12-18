@@ -1,5 +1,5 @@
 let peso = 85, altura= 1.85;
-const IMC = (peso / (altura * altura)).toFixed(2);
+const IMC = (peso / Math.pow(altura,2)).toFixed(2);
 
 console.log("Imc para Adultos:");
 
