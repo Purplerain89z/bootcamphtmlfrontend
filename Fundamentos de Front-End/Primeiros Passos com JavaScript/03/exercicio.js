@@ -1,6 +1,7 @@
 function calculoImc(peso,altura){
     return (peso / Math.pow(altura,2)).toFixed(2);
 }
+
 function classificarImc(IMC){
     if (IMC < 18.5){
         return("Seu IMC é "+IMC+". IMC sugere que você abaixo do peso. ");
@@ -14,10 +15,12 @@ function classificarImc(IMC){
         return("Seu IMC é "+IMC+". IMC sugere que você esta com Obesidade Grave.");
     }
 }
+
 function main(){
 const peso = 85, altura = 1.85;
 const IMC = calculoImc(peso,altura);
 console.log(classificarImc(IMC));
 }
 
+const main2 = main;
 main();
