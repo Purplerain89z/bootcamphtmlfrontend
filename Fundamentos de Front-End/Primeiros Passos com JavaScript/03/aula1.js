@@ -12,9 +12,18 @@
 // }
 // const quadradoDez = quadrado(10);
 // console.log(quadradoDez);
-function incrementarJuros(valor, percentual){
-    const valorDeAcressimo = (percentual / 100) * valor;
-    return valor + valorDeAcressimo;
-}
+// function incrementarJuros(valor, percentual){
+//     const valorDeAcressimo = (percentual / 100) * valor;
+//     return valor + valorDeAcressimo;
+// }
 
-console.log(incrementarJuros(100,10));
+// console.log(incrementarJuros(100,10));
+// function calcularJuros(){
+
+// }
+// function main(){
+//     console.log("Programa principal");
+//     calcularJuros();
+// }
+
+// main();
