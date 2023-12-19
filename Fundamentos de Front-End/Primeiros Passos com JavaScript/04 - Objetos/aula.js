@@ -1,27 +1,50 @@
-const gato ={
-  nome: "Luna",
-  idade: 2,  
-  descrevar:function(){
-    this
-    console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`) //usar de crases
+class pessoa{
+  nome;
+  idade;
+
+descrever(){
+  console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
   }
-};
+}
+const vitor = new pessoa();
 
-// const atributo = "idade";
+vitor.nome = 'vitor J Paulo';
+vitor.idade = 25;
 
-console.log(gato["nome"])
+const renan = new pessoa();
+renan.nome = 'renan s silva';
+renan.idade = 19;
 
-// gato.descrevar = function(){
-//     console.log(`Meu nome é ${this.nome}`);
-// }
-// // gato.nome = "Ivy"
-// // gato.idade = 6
+console.log(vitor);
+console.log(renan);
 
-// gato.descrevar();
+vitor.descrever();
+renan.descrever();
 
-// // gato.peso = 2.5;
-// // delete gato.nome;
+// const gato ={
+//   nome: "Luna",
+//   idade: 2,  
+//   descrevar:function(){
+//     this
+//     console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`) //usar de crases
+//   }
+// };
 
-// // // console.log(gato.nome);
-// // // console.log(gato.idade);
-// // console.log(gato);
+// // const atributo = "idade";
+
+// console.log(gato["nome"])
+
+// // gato.descrevar = function(){
+// //     console.log(`Meu nome é ${this.nome}`);
+// // }
+// // // gato.nome = "Ivy"
+// // // gato.idade = 6
+
+// // gato.descrevar();
+
+// // // gato.peso = 2.5;
+// // // delete gato.nome;
+
+// // // // console.log(gato.nome);
+// // // // console.log(gato.idade);
+// // // console.log(gato);
