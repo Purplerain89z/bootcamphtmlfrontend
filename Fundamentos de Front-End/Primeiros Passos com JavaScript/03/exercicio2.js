@@ -1,14 +1,15 @@
 function EscreverMeuNome(nome){
-    console.log("Meu nome é "+ nome);
+
+    return ("Meu nome é "+ nome);
 }
 
 EscreverMeuNome("Almir");
 
 function maiorIdade(idade){
     if (idade > 17){
-        console.log("Maior de idade");
+        console.log(EscreverMeuNome("Almir ")+"Maior de idade");
     }else{
-        console.log("Menor de idade.");
+        console.log(EscreverMeuNome("Almir ")+"Menor de idade.");
     }
 }
 
