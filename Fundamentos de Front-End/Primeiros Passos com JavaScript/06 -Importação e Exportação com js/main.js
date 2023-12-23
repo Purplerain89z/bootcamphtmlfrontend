@@ -1,2 +1,11 @@
 const  funcoes = require ('./funcoes-auxiliares');
-console.log(funcoes);
+
+
+// const pessoa = {
+//     nome: 'vitor'
+// }
+
+// const { nome } = pessoa;
+
+// const nome = pessoa.nome;
+// console.log(funcoes);
