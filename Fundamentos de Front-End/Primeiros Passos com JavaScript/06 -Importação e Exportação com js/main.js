@@ -1,3 +1,5 @@
+
+// importação
 const  funcoes = require ('./funcoes-auxiliares');
 
 

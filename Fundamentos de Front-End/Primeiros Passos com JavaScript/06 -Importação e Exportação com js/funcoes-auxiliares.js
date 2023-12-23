@@ -5,5 +5,5 @@ function gets(){
 function print(texto){
     console.log(texto);
 }
-
+// exportação
 module.exports = {gets,print};
